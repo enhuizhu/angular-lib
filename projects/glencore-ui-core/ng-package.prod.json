@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/glencore-ui-core",
+  "lib": {
+    "entryFile": "src/public_api.ts",
+    "externals": {
+      "redux": "redux"
+    }
+  },
+  "whitelistedNonPeerDependencies": ["redux", "moment", "socket.io-client"]
+}
